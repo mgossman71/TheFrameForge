@@ -3,12 +3,13 @@ export default function Hero({ headline, subheadline, ctaText, ctaLink }) {
     <div className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center"
+        className="absolute inset-0 z-0 bg-center"
         style={{
-          backgroundImage: "url('/images/FrameForge1.png')",
+          backgroundImage: "url('/images/FrameForge2.png')",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "contain", // changed from "cover" to "contain"
           backgroundPosition: "center",
+          backgroundColor: "#111", // fallback color for empty space
         }}
       />
 
