@@ -13,6 +13,9 @@ export default function Contact() {
       >
         Email Us for a Quote
       </a>
+      <div className="mt-4 text-lg font-bold">
+        theframeforge.sales@gmail.com
+      </div>
     </div>
   )
 }
